@@ -11,17 +11,20 @@ div {
 }
 
 footer {
-    background-color: green;
+    background-color: gray;
     color: white;
     padding: 5px;
     text-align: center;
 }
 
 header {
-    background-color: green;
+    background-color: gray;
     color: white;
     margin: auto;
     text-align: center;
+    display: flex;
+    font-size: 40px;
+    padding: 15px;
 }
 
 
@@ -84,7 +87,7 @@ section {
 }
 
 .linklist ul li {
-    display: flex;
+    display: block;
     
 
 }

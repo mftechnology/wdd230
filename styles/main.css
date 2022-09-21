@@ -2,7 +2,7 @@
 
 
 body {
-    font-family: 'Kalam', cursive;
+    font-family: 'Inconsolata', cursive;
 }
 
 div {
@@ -10,21 +10,19 @@ div {
     text-align: center;
 }
 
-footer {
-    background-color: gray;
-    color: white;
-    padding: 5px;
-    text-align: center;
+header{
+    display: flex;
+    font-size: 40px;
 }
 
-header {
+header, footer {
+    font-family: 'Cinzel';
     background-color: gray;
     color: white;
     margin: auto;
+    padding: 5px;
     text-align: center;
-    display: flex;
-    font-size: 40px;
-    padding: 15px;
+    
 }
 
 

@@ -1,0 +1,21 @@
+/* medium media query*/
+@media only screen and (min-width: 32.5em){
+    
+header, footer{
+    display: flex;
+    color: white;
+    
+    }
+header{
+    font-size: 30px;
+}
+  
+footer{
+    font-size: 20px;
+}
+
+.linklist ul li {
+    display: block;
+}
+
+}

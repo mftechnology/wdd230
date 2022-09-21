@@ -1,17 +1,16 @@
 /* medium media query*/
 @media only screen and (min-width: 32.5em){
     
-header, footer{
+header{
     display: flex;
     color: white;
-    
-    }
-header{
     font-size: 30px;
-}
+    }
   
 footer{
+    display: grid;
     font-size: 20px;
+    text-align: center;
 }
 
 .linklist ul li {

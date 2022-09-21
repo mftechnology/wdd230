@@ -25,14 +25,14 @@ header img {
 
 footer{
     font-size: 10px;
+    
 }
 
 header, footer {
     font-family: 'Cinzel';
     background-color: gray;
     color: white;
-    padding: 5px;
-    text-align: center;
+    
 }
 
 

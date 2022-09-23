@@ -1,0 +1,55 @@
+/* HTML Selectors */
+@media only screen and (min-width: 768px){
+    
+body {
+    font-family: 'Cinzel';
+    }
+    
+img{
+    max-width: 70%;
+    max-height: 70%;
+    
+    }
+
+main{
+    background-color: white;
+}
+
+header, footer {
+    background-color: black;
+    color: white;  
+    text-align: center;
+}
+.layout {  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr ;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Header Header"
+      "Example01 Example02"
+      "Example03 Example03"
+      "Footer Footer";
+  }
+  
+  .Header, .Footer { grid-area: Header;
+    font-size: medium;
+}
+
+  
+.Example01, .Example02, .Example03{
+    text-align: center;
+    background-color: rgb(213, 213, 213);
+    
+}
+  .Example01 { grid-area: Example01;}
+  
+  .Example02 { grid-area: Example02;}
+  
+  .Example03 { grid-area: Example03;}
+  
+  .Footer { grid-area: Footer; } 
+
+}
+

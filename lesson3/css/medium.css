@@ -1,10 +1,31 @@
 /* HTML Selectors */
 @media only screen and (min-width: 768px){
-    
 
+ul {
+    text-align: left;
+    font-family: 'Arimo';
+}
 
+p {
+	  font-family: 'Arimo';
+  }
 
-    
+table{
+		font-family: arial, sans-serif;
+		border-collapse: collapse;
+		width: auto;
+    }
+	  
+td, th {
+		border: 1px solid black;
+		text-align: left;
+		padding: 10px;
+	  }
+
+tr:nth-child(even) {
+		background-color: white;
+	  }    
+
 body {
     font-family: 'Cinzel';
     }
@@ -61,18 +82,29 @@ nav ul li a:hover {
     background-color: #efefef;
     color: black;
 }
-
+.Color1{
+  background-color:rgb(61 149 212/ 0.9);
+}
+.Color2{
+  background-color:#c1fdc6;
+}
+.Color3{
+  background-color: #cbe6f7;
+}
+.Color4{
+  background-color:#dbf1ff;
+}
 .layout {  
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr ;
     gap: 10px 10px;
     grid-auto-flow: row;
     grid-template-areas:
-      "Header Header"
-      "Example01 Example02"
-      "Example03 Example03"
-      "Footer Footer";
+      "Header Header Header"
+      "Example01 Example02 Example03"
+      "Example04 Example04 Example04"
+      "Footer Footer Footer";
   }
   
   .Header, .Footer { grid-area: Header;
@@ -80,7 +112,7 @@ nav ul li a:hover {
 }
 
   
-.Example01, .Example02, .Example03{
+.Example01, .Example02, .Example03, .Example04{
     text-align: center;
     background-color: rgb(213, 213, 213);
     
@@ -90,9 +122,11 @@ nav ul li a:hover {
   .Example02 { grid-area: Example02;}
   
   .Example03 { grid-area: Example03;}
-  
+
+  .Example04 { grid-area: Example04;}
   
   .Footer { grid-area: Footer; } 
 
+  
 }
 

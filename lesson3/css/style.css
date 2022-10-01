@@ -1,0 +1,120 @@
+/* HTML Selectors */
+@media only screen and (min-width: 992px){
+
+	table {
+		font-family: arial, sans-serif;
+		border-collapse: collapse;
+		width: auto;
+	  }
+	  
+	  td, th {
+		border: 1px solid #dddddd;
+		text-align: left;
+		padding: 8px;
+	  }
+	  
+	  tr:nth-child(even) {
+		background-color: #dddddd;
+	  }
+	
+	
+	body {
+		font-family: 'Cinzel';
+	}
+	p{
+		font-family: 'Arial';
+	}
+
+	img{
+	width: 200px;
+	height: auto;
+	}
+	
+	h5, h4, h3 {
+		font-family: 'Arial';
+	}
+
+
+	main{
+		background-color: white;
+	}
+
+	
+	header, footer {
+		font-family: 'Cinzel';
+		background-color: gray;
+		color: white;
+		margin: auto;
+		padding: 5px;
+		text-align: center;
+		
+	}
+	
+	nav {
+		background-color: black;
+		color: white;
+	}
+	
+	nav ul {
+		display: block;
+		flex-direction: column;
+		justify-content: center;
+		align-content: space-around;
+		margin: 0;
+		padding: 0;
+	}
+	
+	
+	nav ul li {
+		display: inline-block;
+		list-style: none;
+		margin: 10px;
+	}
+	
+	nav ul li a {
+		color: white;
+		display: block;
+		padding: 10px;
+		text-decoration: none;
+	}
+	nav ul li a:hover {
+		background-color: #efefef;
+		color: black;
+	}
+	
+	
+	
+	/* Grid Layout */
+	
+	.layout {  display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr;
+		gap: 10px 10px;
+		grid-auto-flow: row;
+		grid-template-areas:
+		  "Header Header Header"
+		  "Example01 Example02 Example03"
+		  "Footer Footer Footer";
+	  }
+	  
+	  .Header { grid-area: Header;
+		font-size: x-large;
+	}
+	  
+	.Example01, .Example02, .Example03{
+		text-align: center;
+		background-color: rgb(213, 213, 213);
+		
+	}
+	  .Example01 { grid-area: Example01;}
+	  
+	  .Example02 { grid-area: Example02;}
+	  
+	  .Example03 { grid-area: Example03;}
+	  
+	  .Footer { grid-area: Footer; }
+	  
+	
+	/* Class Selectors */
+	
+	}

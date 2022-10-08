@@ -1,0 +1,93 @@
+
+@media only screen and (min-width: 60em) {
+    /* Large Screen 800px */
+
+nav {
+    display: block;
+}
+
+nav button { display: none}
+
+nav ul { 
+    display:flex;
+    justify-content: center;
+}
+
+nav ul li a {
+    border: none;
+}
+    
+.navigation {
+    display: flex;
+}
+.navigation li {
+    display: block; /* change state in small view */
+    flex: 1 1 auto;
+}
+.navigation a {
+    text-align: center;
+}
+.navigation li:first-child {
+    display: none;
+}
+
+
+/* ----------- CLASSES NAV STYLE HAM ----------*/
+
+
+
+/* ----------- CLASSES LAYOUT ----------*/
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.logoFooter{
+    display: flex;
+    align-items: center;
+    margin-left: 20rem;
+}
+
+.address{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+	margin-left: 10rem;
+}
+
+.email{
+    display:grid;
+    align-items: center;
+    flex-direction: column;
+	margin-left: 10rem;
+}
+
+
+/* Conf Grid*/
+.layout {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+
+    "Header Header Header"
+    "Event Body Spotlight1"
+    "Weather Body Spotlight2"
+    "Join Release Spotlight3"
+    "Footer Footer Footer";
+  }
+  
+  .Spotlight1, .Spotlight2,.Spotlight3, .Event, .Body,.Release,.Weather,.Join
+  {
+      min-height: 200px;
+  }
+  
+  .Join { grid-area: Join;display: grid;}
+  .Body { grid-area: Body; display: grid;}
+  .Spotlight3 { grid-area: Spotlight3; display: grid;}
+
+#timeHeader {
+    display: none;
+
+}
+}

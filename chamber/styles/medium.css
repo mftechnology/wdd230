@@ -1,0 +1,43 @@
+/* Media Query for medium+ views */
+@media only screen and (min-width: 40em) {
+
+nav button {
+    display: flex;
+    align-content: flex-end;
+
+}
+
+
+/* Conf Grid*/
+.layout {  
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+
+    "Header Header"
+    "Release Release"
+    "Spotlight1 Spotlight2"
+    "Join Join"
+    "Event Weather"
+    "Footer Footer";
+
+ }
+
+ .Spotlight1, .Spotlight2,.Spotlight3, .Event, .Body,.Release,.Weather,.Join{
+    min-height: 150px;
+}
+
+ .Join { grid-area: Join;}
+ .Body { grid-area: Body; display: none;}
+ .Sportlight3 { grid-area: Spotlight3; display: none;}
+
+ #timeHeader {
+    display: block;
+    margin: 0 auto;
+	max-width: 760px;
+	background-color:#a7e7c9;
+    text-align: center;
+}
+
+
+
+}

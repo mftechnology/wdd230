@@ -1,0 +1,105 @@
+/* Small/Phone View ***************/
+
+body {
+    font-family: 'Cinzel';
+    }
+
+img{
+     width: 100px;
+     height: auto;
+    }
+
+main{
+        background-color: white;
+    }
+
+header, footer {
+    font-family: 'Cinzel';
+    background-color: rgb(238, 241, 236);
+    color: rgb(44, 121, 61);  
+}
+
+
+nav {
+	margin: 0 auto;
+	max-width: 760px;
+	background-color:#a7e7c9;
+}
+nav ul {
+    display: none;
+    list-style-type:none;
+}
+nav ul.open {display: block;}
+
+nav button{
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: rgb(52, 117, 98);
+}
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: rgb(24, 71, 22);
+    border-top: 1px solid rgba(0,0,0.5);
+}
+
+nav ul li a:hover{
+    background-color: rgb(160, 194, 162);
+}
+
+/* ----------- CLASSES NAV STYLE HAM ----------*/
+
+
+/* ----------- CLASSES LAYOUT ----------*/
+.Footer {
+    text-align: center;
+}
+
+.logoFooter, .address, .email{
+    align-items: left;    
+}
+
+#timeHeader {
+    display: none;
+}
+
+/******* Config Grid*********/
+
+.layout {  display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:  1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+
+    "Header"
+    "Body"
+    "Event"
+    "Weather"
+    "Release"
+    "Spotlight1"
+    "Spotlight2"
+    "Footer";
+  }
+  
+.Spotlight1, .Spotlight2,.Spotlight3, .Event, .Body,.Release,.Weather,.Join{
+    text-align: center;
+    background-color:#d5f3f8;
+    min-height: 50px;
+}
+
+.Header { grid-area: Header; }
+.Footer { grid-area: Footer; }
+.Body { grid-area: Body;}
+.Join { grid-area: Join; display: none;}
+.Event { grid-area: Event;}
+.Weather { grid-area: Weather;}
+.Release{ grid-area: Release; }
+.Spotlight1{ grid-area: Spotlight1;}
+.Spotlight2{ grid-area: Spotlight2;}
+.Spotlight3{ grid-area: Spotlight3; display: none;}
+ 
+

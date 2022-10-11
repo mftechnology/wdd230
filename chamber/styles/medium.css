@@ -30,13 +30,6 @@ nav button {
  .Body { grid-area: Body; display: none;}
  .Sportlight3 { grid-area: Spotlight3; display: none;}
 
- #timeHeader {
-    display: block;
-    margin: 0 auto;
-	max-width: 760px;
-	background-color:#a7e7c9;
-    text-align: center;
-}
 
 
 

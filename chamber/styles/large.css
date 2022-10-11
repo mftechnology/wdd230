@@ -1,9 +1,10 @@
 
 @media only screen and (min-width: 60em) {
     /* Large Screen 800px */
-
+    
 nav {
-    display: block;
+    display: flex;
+
 }
 
 nav button { display: none}
@@ -32,17 +33,10 @@ nav ul li a {
 }
 
 
-/* ----------- CLASSES NAV STYLE HAM ----------*/
+/* ----------- LAYOUT GRID HEADER ----------*/
 
 
 
-/* ----------- CLASSES LAYOUT ----------*/
-
-.logo {
-    display: flex;
-    align-items: center;
-    margin-left: 1rem;
-}
 
 .logoFooter{
     display: flex;
@@ -86,8 +80,5 @@ nav ul li a {
   .Body { grid-area: Body; display: grid;}
   .Spotlight3 { grid-area: Spotlight3; display: grid;}
 
-#timeHeader {
-    display: none;
 
-}
 }

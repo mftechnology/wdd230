@@ -32,11 +32,12 @@ nav ul li a {
     display: none;
 }
 
-
 /* ----------- LAYOUT GRID HEADER ----------*/
-
-
-
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
 
 .logoFooter{
     display: flex;

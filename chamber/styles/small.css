@@ -9,16 +9,12 @@ img{
      height: auto;
     }
 
-main{
-        background-color: white;
-    }
 
 header, footer {
     font-family: 'Cinzel';
     background-color: rgb(238, 241, 236);
     color: rgb(44, 121, 61);  
 }
-
 
 nav {
 	margin: 0 auto;
@@ -40,6 +36,7 @@ nav button{
 }
 nav ul li a {
     display: block;
+    width: auto;
     padding: .8rem 2vw;
     text-decoration: none;
     color: rgb(24, 71, 22);
@@ -52,31 +49,28 @@ nav ul li a:hover{
 
 /* ----------- LAYOUT GRID HEADER ----------*/
 .Header{ display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows:  1fr;
-    grid-auto-flow: column;
+    grid-template-columns: 1fr 1fr auto auto;
+    grid-template-rows: 1fr;
     grid-template-areas:
-
-    "logo navigation Face "
+    "logo btn Face "
     "time time time"
   ;
 }
 
-.Header { grid-area: Header;align-items: center;}
+.Header { grid-area: Header;}
+.Header {align-items: center;}
 
-.Face { grid-area: Face;
-        text-align: right;}
+.Face { grid-area: Face;}
 
-.navigation { grid-area: navigation;}
+.btn { grid-area: btn;}
 
-.time { grid-area: time;
-        text-align: center;}
+.time { grid-area: time;}
 
 .time{ 
     background-color: rgb(170, 219, 184);
     color: black;
+    text-align: center;
 }
-
 
 /* ----------- CLASSES Position ----------*/    
 
@@ -121,7 +115,6 @@ nav ul li a:hover{
     background-color:#d5f3f8;
     min-height: 50px;
 }
-
 
 .Footer { grid-area: Footer; }
 .Body { grid-area: Body;}

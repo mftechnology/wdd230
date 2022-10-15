@@ -1,3 +1,4 @@
+//Menu Hamburger
 function toggleMenu(){
   document.getElementById('navigation').classList.toggle("open");
 }
@@ -15,15 +16,30 @@ document.querySelector('#timeHeader').textContent = currentDate.getFullYear();
 
 // last modified
 
-//const datefieldUK = document.querySelector('#lastmod'); // for european/family history format with day first.
 const dateHeader = document.querySelector('#timeHeader');
 
 const fulldateUK = new Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(currentDate);
 
 
-//datefield.innerHTML = `<em>${fulldate}</em>`;
-//datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
 dateHeader.innerHTML = `<em>${fulldateUK}</em>`;
 
 //-*------------------------------------------
 document.querySelector("#lastModified").textContent = `Last Modification: ${document.lastModified}`;
+
+//Banner 
+
+let bannerDay = new Date().getDay();
+// console.log(bannerDay)
+
+const banner = document.querySelector('#banner');
+if (bannerDay === 1 || bannerDay === 2){
+    banner.style.display = 'block';
+} else{
+    banner.style.display = 'none';
+}
+
+const close = document.querySelector('#close');
+
+close.addEventListener('click', () => {
+    banner.style.display = 'none';
+})

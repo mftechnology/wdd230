@@ -1,5 +1,5 @@
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 85em) {
     /* Large Screen 800px */
     
 nav {
@@ -17,7 +17,10 @@ nav ul {
 nav ul li a {
     border: none;
 }
-    
+
+h2 {
+	font-size: x-large;   
+}
 .navigation {
     display: flex;
 }
@@ -32,12 +35,22 @@ nav ul li a {
     display: none;
 }
 
-/* ----------- LAYOUT GRID HEADER ----------*/
-.logo {
-    display: flex;
-    align-items: center;
-    margin-left: 1rem;
+.bodyimg {
+    height: 99.9%;    
 }
+    
+
+/* ----------- LAYOUT GRID HEADER ----------*/
+.Header{ display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "logo btn Face "
+    "time time time"
+  ;
+}
+
+
 
 .logoFooter{
     display: flex;
@@ -49,7 +62,7 @@ nav ul li a {
     display:flex;
     align-items: center;
     flex-direction: column;
-	margin-left: 10rem;
+	margin-left: 20rem;
 }
 
 .email{
@@ -61,7 +74,8 @@ nav ul li a {
 
 
 /* Conf Grid*/
-.layout {  display: grid;
+.layout {  
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
 
@@ -72,14 +86,10 @@ nav ul li a {
     "Footer Footer Footer";
   }
   
-  .Spotlight1, .Spotlight2,.Spotlight3, .Event, .Body,.Release,.Weather,.Join
-  {
-      min-height: 200px;
-  }
-  
-  .Join { grid-area: Join;display: grid;}
-  .Body { grid-area: Body; display: grid;}
-  .Spotlight3 { grid-area: Spotlight3; display: grid;}
+  .Join {grid-area: Join;display: grid;}
+  .Body {grid-area: Body; display: grid;}
+  .Spotlight3{grid-area: Spotlight3; display:grid;}
+
 
 
 }

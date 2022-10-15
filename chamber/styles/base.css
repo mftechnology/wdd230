@@ -1,25 +1,22 @@
 /* Small/Phone View ***************/
 
 body {
-    font-family: 'Cinzel';
-    }
+    font-family: Arial, Helvetica, sans-serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-seri;
+}
 
-img{
+header img, footer img{
      width: 100px;
      height: auto;
-    }
-
+}
 
 header, footer {
-    font-family: 'Cinzel';
-    background-color: rgb(238, 241, 236);
-    color: rgb(44, 121, 61);  
+    font-family: Arial, Helvetica, sans-serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-seri;;
+    background-color: rgb(238, 241, 236);    
 }
 
 nav {
 	margin: 0 auto;
 	max-width: 760px;
-	background-color:#a7e7c9;
 }
 nav ul {
     display: none;
@@ -47,12 +44,30 @@ nav ul li a:hover{
     background-color: rgb(160, 194, 162);
 }
 
+h2 {
+	text-shadow: 0.4rem 0.1rem 0.2rem rgb(22, 60, 3);
+    color: aliceblue;
+}
+
+h3 {
+	text-shadow: 0.2rem 0.1rem 0.2rem rgb(14, 41, 193);
+    text-align: center;
+    color: aliceblue;
+}
+
+h4{ text-align: center;}
+
+p {
+    text-align: center;
+    margin-left: 1rem;
+}
+
 /* ----------- LAYOUT GRID HEADER ----------*/
 .Header{ display: grid;
-    grid-template-columns: 1fr 1fr auto auto;
+    grid-template-columns: 1fr auto auto;
     grid-template-rows: 1fr;
     grid-template-areas:
-    "logo btn Face "
+    "btn logo  Face "
     "time time time"
   ;
 }
@@ -64,21 +79,59 @@ nav ul li a:hover{
 
 .btn { grid-area: btn;}
 
-.time { grid-area: time;}
-
-.time{ 
+.time { 
+    grid-area: time; 
     background-color: rgb(170, 219, 184);
     color: black;
     text-align: center;
+    max-width: 95%;
+    margin-left: 2%;
 }
 
-/* ----------- CLASSES Position ----------*/    
 
+/* ----------- CLASSES Position and FORMAT ----------*/   
+.spotimg1 , .spotimg2 , .spotimg3{
+    float: left;
+    margin-left: 20px;
+}
+.joinbtn{
+    border-radius: 1em 1em;
+    background-color: rgb(16, 57, 140);
+    color: white;
+    padding: 16px 150px;
+    text-align: center;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+}
+
+.weatherimg {
+    float:left;
+    margin-left: 10rem;
+}
+.weathertxt{
+    margin-left: 15rem;
+}
+
+.bodytxt{
+    position: absolute;
+    margin-left: 10px;
+    margin-right: auto       
+}
+.bodyimg {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
 .logo {
-    display: flex;
-    align-items: center;
-    margin-left: 1rem;
-}    
+    padding: 10px;
+}   
+
 .facelogo {
     width: 30px;
     border-radius: 25px;
@@ -111,19 +164,23 @@ nav ul li a:hover{
   }
   
 .Spotlight1, .Spotlight2,.Spotlight3, .Event, .Body,.Release,.Weather,.Join{
-    text-align: center;
-    background-color:#d5f3f8;
-    min-height: 50px;
+    background-color: rgb(232, 241, 216);
+    min-width: 400px;
+    max-height: auto;
+    box-shadow: 2px 2px 2px 2px #2b742bb0;
+
 }
 
 .Footer { grid-area: Footer; }
 .Body { grid-area: Body;}
 .Join { grid-area: Join; display: none;}
-.Event { grid-area: Event;}
+.Event { grid-area: Event; text-align: center;}
 .Weather { grid-area: Weather;}
 .Release{ grid-area: Release; }
 .Spotlight1{ grid-area: Spotlight1;}
 .Spotlight2{ grid-area: Spotlight2;}
 .Spotlight3{ grid-area: Spotlight3; display: none;}
  
-
+#banner{
+    text-align: center;
+}

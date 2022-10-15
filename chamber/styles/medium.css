@@ -6,6 +6,17 @@ nav button {
     align-content: flex-end;
 
 }
+.Header{ display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "btn logo Face "
+    "time time time"
+  ;
+}
+.btn{ margin-left: 1rem;}
+
+
 
 
 /* Conf Grid*/
@@ -23,7 +34,8 @@ nav button {
  }
 
  .Spotlight1, .Spotlight2,.Spotlight3, .Event, .Body,.Release,.Weather,.Join{
-    min-height: 150px;
+    min-height: 300px;
+
 }
 
  .Join { grid-area: Join;}

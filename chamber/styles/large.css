@@ -72,6 +72,10 @@ h2 {
 	margin-left: 10rem;
 }
 
+.Spotlight section{
+    min-height: 200px;
+}
+
 
 /* Conf Grid*/
 .layout {  
@@ -80,15 +84,15 @@ h2 {
     grid-template-areas:
 
     "Header Header Header"
-    "Event Body Spotlight1"
-    "Weather Body Spotlight2"
-    "Join Release Spotlight3"
+    "Event Body Spotlight"
+    "Weather Body Spotlight"
+    "Join Release Spotlight"
     "Footer Footer Footer";
   }
   
   .Join {grid-area: Join;display: grid;}
   .Body {grid-area: Body; display: grid;}
-  .Spotlight3{grid-area: Spotlight3; display:grid;}
+  .Spotlight3{display:grid;}
 
 
 

@@ -26,21 +26,21 @@ nav button {
 
     "Header Header"
     "Release Release"
-    "Spotlight1 Spotlight2"
+    "Spotlight Spotlight"
     "Join Join"
     "Event Weather"
     "Footer Footer";
 
  }
 
- .Spotlight1, .Spotlight2,.Spotlight3, .Event, .Body,.Release,.Weather,.Join{
-    min-height: 300px;
+ .Spotlight,.Event, .Body,.Release,.Weather,.Join{
+    min-height: 100px;
 
 }
 
  .Join { grid-area: Join;}
  .Body { grid-area: Body; display: none;}
- .Sportlight3 { grid-area: Spotlight3; display: none;}
+ .Sportlight3 {display: none;}
 
 
 

@@ -1,4 +1,4 @@
-//Menu Hamburger
+//Menu Hamburger ------------------------------------------------------
 function toggleMenu(){
   document.getElementById('navigation').classList.toggle("open");
 }
@@ -6,30 +6,8 @@ function toggleMenu(){
 const x = document.getElementById('hambBtn')
 x.onclick = toggleMenu;
 
-
-// set current year in footer
-const currentDate = new Date();
-document.querySelector('#year').textContent = currentDate.getFullYear();
-
-// set current year in header
-document.querySelector('#timeHeader').textContent = currentDate.getFullYear();
-
-// last modified
-
-const dateHeader = document.querySelector('#timeHeader');
-
-const fulldateUK = new Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(currentDate);
-
-
-dateHeader.innerHTML = `<em>${fulldateUK}</em>`;
-
-//-*------------------------------------------
-document.querySelector("#lastModified").textContent = `Last Modification: ${document.lastModified}`;
-
-//Banner 
-
+//Banner ------------------------------------------------------------------------------
 let bannerDay = new Date().getDay();
-// console.log(bannerDay)
 
 const banner = document.querySelector('#banner');
 if (bannerDay === 1 || bannerDay === 2){
@@ -42,4 +20,22 @@ const close = document.querySelector('#close');
 
 close.addEventListener('click', () => {
     banner.style.display = 'none';
+
+
+// set current year in footer ............................................................
+const currentDate = new Date();
+document.querySelector('#year').textContent = currentDate.getFullYear();
+
+// set current year in header
+document.querySelector('#timeHeader').textContent = currentDate.getFullYear();
+
+// last modified
+const dateHeader = document.querySelector('#timeHeader');
+
+const fulldateUK = new Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(currentDate);
+
+dateHeader.innerHTML = `<em>${fulldateUK}</em>`;
+
+document.querySelector("#lastModified").textContent = `Last Modification: ${document.lastModified}`;
+
 })

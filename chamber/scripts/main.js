@@ -6,20 +6,6 @@ function toggleMenu(){
 const x = document.getElementById('hambBtn')
 x.onclick = toggleMenu;
 
-//Banner ------------------------------------------------------------------------------
-let bannerDay = new Date().getDay();
-
-const banner = document.querySelector('#banner');
-if (bannerDay === 1 || bannerDay === 2){
-    banner.style.display = 'block';
-} else{
-    banner.style.display = 'none';
-}
-
-const close = document.querySelector('#close');
-
-close.addEventListener('click', () => {
-    banner.style.display = 'none';
 
 
 // set current year in footer ............................................................
@@ -38,4 +24,18 @@ dateHeader.innerHTML = `<em>${fulldateUK}</em>`;
 
 document.querySelector("#lastModified").textContent = `Last Modification: ${document.lastModified}`;
 
+//Banner ------------------------------------------------------------------------------
+let bannerDay = new Date().getDay();
+
+const banner = document.querySelector('#banner');
+if (bannerDay === 1 || bannerDay === 2){
+    banner.style.display = 'block';
+} else{
+    banner.style.display = 'none';
+}
+
+const close = document.querySelector('#close');
+
+close.addEventListener('click', () => {
+    banner.style.display = 'none';
 })

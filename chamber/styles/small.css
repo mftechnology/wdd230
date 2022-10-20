@@ -1,0 +1,205 @@
+/* Small/Phone View ***************/
+
+/*----------- BODY --------------*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-seri;
+}
+
+/*----------- HEADER --------------*/
+
+header img, footer img{
+    width: 100px;
+    height: auto;
+}
+
+header, footer {
+   font-family: Arial, Helvetica, sans-serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-seri;;
+   background-color: rgb(238, 241, 236);    
+}
+.logo {
+    padding: 10px;
+    
+}   
+
+.facelogo {
+    width: 30px;
+    border-radius: 25px;
+}
+.Header{ display: grid;
+    grid-template-columns: 1fr auto auto;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "btn logo  Face "
+    "time time time"
+  ;
+}
+
+.Header { grid-area: Header;}
+.Header {align-items: center;}
+
+.Face { grid-area: Face;}
+
+.btn { grid-area: btn;}
+
+.time { 
+    grid-area: time; 
+    background-color: rgb(170, 219, 184);
+    color: black;
+    text-align: center;
+    max-width: 95%;
+    margin-left: 2%;
+}
+
+#banner{
+    text-align: center;
+}
+/*----------- NAVIGATION --------------*/
+
+nav {
+	margin: 0 auto;
+	max-width: 760px;
+}
+nav ul {
+    display: none;
+    list-style-type:none;
+}
+nav ul.open {display: block;}
+
+nav button{
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: rgb(52, 117, 98);
+}
+nav ul li a {
+    display: block;
+    width: auto;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: rgb(24, 71, 22);
+    border-top: 1px solid rgba(0,0,0.5);
+}
+
+nav ul li a:hover{
+    background-color: rgb(160, 194, 162);
+}
+
+/*----------- MAIN --------------*/
+
+h2 {
+	text-shadow: 0.4rem 0.1rem 0.2rem rgb(22, 60, 3);
+    color: aliceblue;
+}
+
+h3 {
+	text-shadow: 0.1rem 0.2rem 0.5rem rgb(75, 170, 233);
+    text-align: center;
+    color: rgb(37, 101, 173);
+}
+
+h4{ text-align: center;}
+
+p {
+    text-align: center;
+    margin-left: 1rem;
+    padding: 0.5rem;
+}
+.layout {  display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:  1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+
+    "Header"
+    "Body"
+    "Event"
+    "Weather"
+    "Release"
+    "Spotlight"
+    "Spotlight"
+    "Footer";
+  }
+
+.Footer { grid-area: Footer; }
+.Body { grid-area: Body;}
+.Join { grid-area: Join; display: none;}
+.Event { grid-area: Event; text-align: center;}
+.Weather { grid-area: Weather;}
+.Release{ grid-area: Release; }
+.Spotlight{ grid-area: Spotlight;}
+
+.Spotlight,.Event, .Body,.Release,.Weather,.Join{
+    background-color: rgb(232, 241, 216);
+    min-width: 400px;
+    padding: 0.5rem;
+    box-shadow: 2px 2px 2px 2px #2b742bb0;
+}
+
+.Spotlight1,.Spotlight2,.Spotlight3{
+    margin: 1% 1% 2% 1%;
+    min-width: 400px;
+    box-shadow: 0px 0px 0px 2px #ffffff;
+    padding: 1rem;
+}
+.Spotlight3{
+    display: none;
+}
+  
+.spotimg1 , .spotimg2 , .spotimg3{
+    float: left;
+    margin-left: 20px;
+    height: auto;
+}
+.joinbtn{
+    border-radius: 1em 1em;
+    background-color: rgb(16, 57, 140);
+    color: white;
+    padding: 16px 150px;
+    text-align: center;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+}
+
+.weatherimg {
+    float:left;
+    margin-left: 10rem; 
+    height: auto;
+}
+
+#weathertxt{
+    margin-left: 15rem;
+}
+
+.bodytxt{
+    position: absolute;
+    margin-left: 10px;
+    margin-right: auto       
+}
+.bodyimg {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+.Wheather section {
+    background-color: aqua;    
+}
+
+#speed, #chill{
+    margin-left: 1rem;
+}
+/*----------- FOOTER --------------*/
+.Footer {
+    text-align: center;
+}
+
+

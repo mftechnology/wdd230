@@ -6,15 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="People that are searching where to stay, what to do, where to eat and where to shop">
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
     <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arimo|Cinzel">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cinzel">
     <title>IFOUNDD</title>
 </head>
+<body>
 <header class="Header"> 
-    <div class="logo"><img src="images/logo_small.png" alt="LogoIfoundd"></div>
+    <div class="logo">
+        <picture>
+            <source media="(max-width:150px)" srcset="images/logo_small75.png">
+            <source media="(max-width:500px)" srcset="images/logo_small150.png">
+            <source media="(max-width:800px)" srcset="images/logo_small300.png">
+            <img src="images/logo_small.png" alt="LogoIfoundd" >
+        </picture>
+    </div>
         <nav class="btn">
         <button id="hambBtn">&#9776;</button>
         <ul id="navigation">
@@ -31,8 +39,6 @@
         <a href="www.instagram.com"><img class="facelogo" src="images/insta.png" alt="Instagran logo"></a>
     </div>
 </header>
-
-<body>
     <div id="banner">🤝🏼 Come join us for the United Traders of Camaçari meet and greet <strong>Wednesday at 7:00 p.m. </strong><button id="close">x</button></div>
     <main class="layout">
         <div class="Event"> 
@@ -46,20 +52,27 @@
         </div>
         <div class="Body"> 
             <div class="bodytxt"><h2> Welcome to IFOUNDD</h2></div>
+        <picture>
+            <source media="(max-width:200px)" srcset="images/castle_guimaraes200.jpg">
+            <source media="(max-width:500px)" srcset="images/castle_guimaraes500.jpg">
+            <source media="(max-width:800px)" srcset="images/castle_guimaraes800.jpg">
             <img class="bodyimg" src="images/castle_guimaraes.jpg" alt="castelo de Guimarães">
+        </picture>
         </div>
         <div class="Weather">
             <h3>Weather</h3>
             <h4>Guimarães</h4>           
             <img class="weatherimg" src="images/rain_s_cloudy.png" alt="Weather Guimarães">
-            <h1 class="weathertxt">71°F</h1> <br>
+            <h1 id="weathertxt"></h1> <br>
             <h4>Partly Cloudy</h4>
             <hr>
-            <span>Wind Speed: 11 mph</span><br>
-            <span>Wind Chill: N/A</span> 
+            <section>
+                <h4>Wind Speed:<span id="speed"></span> </h4>
+                <h4>Wind Chill: <span id="chill"></span></h4>
+            </section>
         </div>
         <div class="Join">
-        <section><button class="joinbtn"> Join with us</button></section>
+        <section><h4><button class="joinbtn"> Join with us</button></h4></section>
             <p> Discover how to join the IFOUNDD and how
             it will be benefit!
             </p>
@@ -78,19 +91,22 @@
             <h3>What to Do</h3>
             <img class="spotimg2" src="images/menu-icon2.png" alt="here to do">
             <p>Museums, Castles, Fairs/Festival, Arts & Entertainament and more... </p>
-            
         </section>
         <section class="Spotlight3"> 
-            <section>
             <h3>Where to Eat</h3>
             <img class="spotimg3" src="images/menu-icon3.png" alt="here to eat">
             <p>From North Portugal food to fine dining, offers a variety of farm-to-table for you to choose from after you've worked up an appetite.</p>
-            </section>
         </section>
     </div>
     </main>
     <footer class="Footer">
-        <p><div class="logoFooter"><img src="images/logo_small.png" alt="LogoIfoundd"></p>
+            <div class="logoFooter">
+                <picture>
+                    <source media="(max-width:150px)" srcset="images/logo_small75.png">
+                    <source media="(max-width:500px)" srcset="images/logo_small150.png">
+                    <source media="(max-width:800px)" srcset="images/logo_small300.png">
+                    <img src="images/logo_small.png" alt="LogoIfoundd" >
+                </picture>    
             <br>
             <p class="address"> IFOUNDD CRAMBER LTDA
             <br> Rua das Lameiras,29 Creixomil
@@ -104,5 +120,6 @@
         <p> &copy;<span id="year"></span> | IFOUNDD Chamber | Marcelo Duarte | WDD230 Project | Last Modification: <span id="lastModified"></span> </p>
     </footer>    
     <script src="scripts/main.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>

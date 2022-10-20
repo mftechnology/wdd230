@@ -1,11 +1,14 @@
 /* Media Query for medium+ views */
 @media only screen and (min-width: 40em) {
 
+/*----------- NAVIGATION --------------*/
 nav button {
     display: flex;
     align-content: flex-end;
 
 }
+
+/*----------- HEADER --------------*/
 .Header{ display: grid;
     grid-template-columns: 1fr 1fr auto;
     grid-template-rows: 1fr;
@@ -16,10 +19,6 @@ nav button {
 }
 .btn{ margin-left: 1rem;}
 
-
-
-
-/* Conf Grid*/
 .layout {  
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
@@ -32,17 +31,11 @@ nav button {
     "Footer Footer";
 
  }
-
  .Spotlight,.Event, .Body,.Release,.Weather,.Join{
     min-height: 100px;
-
 }
-
  .Join { grid-area: Join;}
  .Body { grid-area: Body; display: none;}
  .Sportlight3 {display: none;}
-
-
-
 
 }

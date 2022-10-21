@@ -24,6 +24,7 @@ header, footer {
 
 .facelogo {
     width: 30px;
+    height: auto;
     border-radius: 25px;
 }
 .Header{ display: grid;
@@ -106,6 +107,22 @@ p {
     margin-left: 1rem;
     padding: 0.5rem;
 }
+
+#weathertxt{
+    font-size: 40px;
+    margin-left: 1rem;
+}
+.weatherimg{
+    float: left;
+    margin: 0 0 0 35%;
+}
+
+.windchill{
+    background-color: rgb(64, 146, 92);
+    padding: 2%;
+    text-align: center;
+}
+
 .layout {  display: grid;
     grid-template-columns: 1fr;
     grid-template-rows:  1fr;
@@ -133,14 +150,14 @@ p {
 
 .Spotlight,.Event, .Body,.Release,.Weather,.Join{
     background-color: rgb(232, 241, 216);
-    min-width: 400px;
+    min-width: 200px;
     padding: 0.5rem;
     box-shadow: 2px 2px 2px 2px #2b742bb0;
 }
 
 .Spotlight1,.Spotlight2,.Spotlight3{
     margin: 1% 1% 2% 1%;
-    min-width: 400px;
+    min-width: 200px;
     box-shadow: 0px 0px 0px 2px #ffffff;
     padding: 1rem;
 }
@@ -168,16 +185,6 @@ p {
     margin-top: 1rem;
 }
 
-.weatherimg {
-    float:left;
-    margin-left: 10rem; 
-    height: auto;
-}
-
-#weathertxt{
-    margin-left: 15rem;
-}
-
 .bodytxt{
     position: absolute;
     margin-left: 10px;
@@ -190,12 +197,17 @@ p {
     margin-right: auto;
     height: auto;
 }
-.Wheather section {
-    background-color: aqua;    
-}
 
 #speed, #chill{
     margin-left: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.wind, .chill{
+    
+    text-shadow: 0.1rem 0.1rem 0.1rem  rgb(28, 123, 187);
+    color: rgb(245, 247, 250);
+    
 }
 /*----------- FOOTER --------------*/
 .Footer {

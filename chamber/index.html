@@ -17,10 +17,10 @@
 <header class="Header"> 
     <div class="logo">
         <picture>
-            <source media="(max-width:150px)" srcset="images/logo_small75.png">
-            <source media="(max-width:500px)" srcset="images/logo_small150.png">
-            <source media="(max-width:800px)" srcset="images/logo_small300.png">
-            <img src="images/logo_small.png" alt="LogoIfoundd" >
+            <source media="(max-width:150px)" srcset="images/logo_small75.webp">
+            <source media="(max-width:500px)" srcset="images/logo_small150.webp">
+            <source media="(max-width:800px)" srcset="images/logo_small300.webp">
+            <img src="images/logo_small.webp" alt="LogoIfoundd" >
         </picture>
     </div>
         <nav class="btn">
@@ -35,8 +35,8 @@
         </nav>
     <div class="time" id="timeHeader"></div>
     <div class="Face">
-        <a href="www.facebook.com"><img class="facelogo" src="images/fb_logo.png" alt="Facebook logo"></a>
-        <a href="www.instagram.com"><img class="facelogo" src="images/insta.png" alt="Instagran logo"></a>
+        <a href="www.facebook.com"><img class="facelogo" src="images/fb_logo.webp" alt="Facebook logo"></a>
+        <a href="www.instagram.com"><img class="facelogo" src="images/insta.webp" alt="Instagran logo"></a>
     </div>
 </header>
     <div id="banner">🤝🏼 Come join us for the United Traders of Camaçari meet and greet <strong>Wednesday at 7:00 p.m. </strong><button id="close">x</button></div>
@@ -61,14 +61,16 @@
         </div>
         <div class="Weather">
             <h3>Weather</h3>
-            <h4>Guimarães</h4>           
-            <img class="weatherimg" src="images/rain_s_cloudy.png" alt="Weather Guimarães">
-            <h1 id="weathertxt"></h1> <br>
+            <h4>Guimarães</h4>    
+            <section >
+                <span><img class="weatherimg" src="images/rain_s_cloudy.png" alt="Weather Guimarães"></span>
+                <span id="weathertxt"></span>               
+            </section>           
             <h4>Partly Cloudy</h4>
             <hr>
-            <section>
-                <h4>Wind Speed:<span id="speed"></span> </h4>
-                <h4>Wind Chill: <span id="chill"></span></h4>
+            <section class="windchill">
+                <span class="wind">Wind Speed:</span><span id="speed"></span><br>
+                <span class="chill"> Wind Chill: </span><span id="chill"></span> 
             </section>
         </div>
         <div class="Join">
@@ -83,19 +85,33 @@
         <div class="Spotlight"> 
         <section class="Spotlight1"> 
             <h3>Where to Stay</h3>
-            <img class="spotimg1" src="images/menu-icon1.png" alt="here to stay">
-            <p>From cabin rentals along the Chattahoochee to historic inns to camping at Lake Ave</p><br>
-        
+            <span>
+                <img class="spotimg1" src="images/menu-icon1.png" alt="here to stay">
+                <p>From cabin rentals along the Chattahoochee to historic inns to camping at Lake Ave</p><br>
+            </span>
+            <hr>
+            <h4>Contact:</h4>
+            <p> +351 9999-9999 | ifoundd@ifoundd.com.br</p>
         </section>
         <section class="Spotlight2">
             <h3>What to Do</h3>
-            <img class="spotimg2" src="images/menu-icon2.png" alt="here to do">
-            <p>Museums, Castles, Fairs/Festival, Arts & Entertainament and more... </p>
+            <span>
+                <img class="spotimg2" src="images/menu-icon2.png" alt="here to do">
+                <p>Museums, Castles, Fairs/Festival, Arts & Entertainament and more... </p>
+            </span>
+            <hr>
+            <h4>Contact:</h4>
+            <p> +351 9999-9999 | ifoundd@ifoundd.com.br</p>
         </section>
         <section class="Spotlight3"> 
             <h3>Where to Eat</h3>
-            <img class="spotimg3" src="images/menu-icon3.png" alt="here to eat">
-            <p>From North Portugal food to fine dining, offers a variety of farm-to-table for you to choose from after you've worked up an appetite.</p>
+            <span>
+                <img class="spotimg3" src="images/menu-icon3.png" alt="here to eat">
+                <p>From North Portugal food to fine dining, offers a variety of farm-to-table for you to choose from after you've worked up an appetite.</p>
+            <span>
+            <hr>
+            <h4>Contact:</h4>
+            <p> +351 9999-9999 | ifoundd@ifoundd.com.br</p>
         </section>
     </div>
     </main>

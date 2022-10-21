@@ -98,5 +98,10 @@ h2 {
     flex-direction: column;
 	margin-left: 10rem;
 }
+.joinchamber{
+    padding: 3%;
+    bottom: 30px;
+    right: 50px;
+}
 
 }

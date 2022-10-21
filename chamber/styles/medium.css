@@ -19,11 +19,13 @@ nav button {
 }
 .btn{ margin-left: 1rem;}
 
+/*----------- MAIN --------------*/
 .layout {  
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
 
     "Header Header"
+    "Body Body"
     "Release Release"
     "Spotlight Spotlight"
     "Join Join"
@@ -35,7 +37,15 @@ nav button {
     min-height: 100px;
 }
  .Join { grid-area: Join;}
- .Body { grid-area: Body; display: none;}
  .Sportlight3 {display: none;}
-
+ .bodytxt{
+    position: absolute;
+    margin-left: 10rem;
+    margin-right: auto       
+}
+.joinchamber{
+    padding: 2%;
+    bottom: 30px;
+    right: 150px;
+}
 }

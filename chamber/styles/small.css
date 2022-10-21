@@ -184,7 +184,9 @@ p {
     margin-right: auto;
     margin-top: 1rem;
 }
-
+.Body{
+    position: relative;
+}
 .bodytxt{
     position: absolute;
     margin-left: 10px;
@@ -197,7 +199,16 @@ p {
     margin-right: auto;
     height: auto;
 }
-
+.joinchamber{
+    position: absolute;
+    background-color: green;
+    padding: 3%;
+    color: #ffffff;
+    border-radius: 1em 1em;
+    bottom: 50px;
+    right: 50px;
+    box-shadow: 0px 0px 5px 1px #ffffff;
+}
 #speed, #chill{
     margin-left: 1rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;

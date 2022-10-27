@@ -8,12 +8,12 @@ function preloadImage(img) {
     img.src = src;
 }
 
-const imgOptions = {
+const img = {
     threshold: 0,
     rootMargin: "0px 0px -500px 0px"
 };
 
-const imgObserver = new IntersectionObserver((entries,imgObserver) => {
+const imgObs = new IntersectionObserver((entries,imgObserver) => {
     entries.forEach(entry => {
         if (!entry.isIntersecting) {
             return;
@@ -22,8 +22,8 @@ const imgObserver = new IntersectionObserver((entries,imgObserver) => {
             imgObserver.unobserve(entry.target);
         }
     })
-}, imgOptions);
+}, img);
 
 images.forEach((image) => {
-  imgObserver.observe(image);
+  imgObs.observe(image);
 });

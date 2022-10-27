@@ -1,0 +1,34 @@
+
+
+/*----------- HEADER --------------*/
+
+/*----------- BODY --------------*/
+
+
+
+/*----------- NAVIGATION --------------*/    
+
+
+/*----------- MAIN --------------*/
+
+h1 {
+	text-align: center;   
+}
+
+table {
+    font-family: arial, sans-serif;
+    margin-left: 40rem;
+    width: 30%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    background-color: #eee8e8;
+  }
+
+  img{
+    min-width: 400px;
+  }
+ 
+/*----------- FOOTER --------------*/
+

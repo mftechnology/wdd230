@@ -56,7 +56,10 @@ header, footer {
     text-align: center;
 }
 /*----------- NAVIGATION --------------*/
-
+.active {
+    background-color: rgb(38, 173, 214);
+    
+}
 nav {
 	margin: 0 auto;
 	max-width: 760px;
@@ -107,7 +110,25 @@ p {
     margin-left: 1rem;
     padding: 0.5rem;
 }
-
+body {
+    background-color: rgb(235, 246, 252);
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  td {
+    text-align: center;
+    padding: 8px;
+  }
+  th {
+    border: 1px solid #dddddd;
+    background-color: rgb(172, 196, 240);
+    padding: 8px;
+  }
 #weathertxt{
     font-size: 40px;
     margin-left: 1rem;
@@ -122,7 +143,23 @@ p {
     padding: 2%;
     text-align: center;
 }
+.containerDiscovery{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 200px;
+    padding: 2%; 
+}
 
+.containerDiscovery img {
+    display: block;
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+    padding: 1%;
+    box-shadow: 0 0 10px rgba(11, 15, 228, 0.795);
+    
+  }
+ 
 .layout {  display: grid;
     grid-template-columns: 1fr;
     grid-template-rows:  1fr;

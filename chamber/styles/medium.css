@@ -48,4 +48,17 @@ nav button {
     bottom: 30px;
     right: 150px;
 }
+.containerDiscovery{
+    max-width: 500px;
+}
+
+.containerDiscovery img {
+    height: 500px;
+    width: 500px;    
+  }
+
+  .containerDiscovery img:hover{
+    box-shadow: 0 0 50px rgba(70, 138, 8, 0.795);
+}
+
 }

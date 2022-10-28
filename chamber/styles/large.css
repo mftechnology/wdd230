@@ -60,6 +60,14 @@ h2 {
 .Spotlight section{
     min-height: 200px;
 }
+.containerDiscovery{
+    max-width: 800px;
+}
+
+.containerDiscovery img {
+    height: 800px;
+    width: 800px;    
+  }
 
 .layout {  
     display: grid;

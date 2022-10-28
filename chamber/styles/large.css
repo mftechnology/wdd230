@@ -12,6 +12,11 @@
     "time time time"
   ;
 }
+.joinchamber{
+    padding: 3%;
+    bottom: 30px;
+    right: 50px;
+}
 
 /*----------- BODY --------------*/
 
@@ -89,27 +94,13 @@ h2 {
 /*----------- FOOTER --------------*/
 .logoFooter{
     display: flex;
-    align-items: center;
-    margin-left: 20rem;
+    margin-left: 30rem;
+    padding: 1%;
 }
 
-.address{
-    display:flex;
-    align-items: center;
-    flex-direction: column;
-	margin-left: 20rem;
-}
-
-.email{
-    display:grid;
-    align-items: center;
-    flex-direction: column;
-	margin-left: 10rem;
-}
-.joinchamber{
-    padding: 3%;
-    bottom: 30px;
-    right: 50px;
-}
+.address, .email{
+    margin-left: auto;
+    margin-right: auto;
+    }
 
 }

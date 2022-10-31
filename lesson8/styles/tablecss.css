@@ -1,3 +1,50 @@
+
+/*----------- HEADER --------------*/
+header, footer {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: gray;
+    color: white;
+    font-size: 15px;
+    padding: 0.5%;
+
+}
+
+/*----------- NAVIGATION --------------*/  
+nav {
+    background-color: black;
+    color: white;
+}
+
+nav ul {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+    align-items: center;
+}
+
+nav ul li a {
+    color: white;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background-color: #efefef;
+    color: black;
+}
+
+/*----------- BODY --------------*/
+
 table {
 	margin: 40px auto;
 	border: thin solid rgb(247, 244, 244);
@@ -7,12 +54,12 @@ table {
     height: auto;
     text-align: center;
     font-size: 15px;
-    color: aliceblue;
+    color: rgb(9, 54, 94);
 
 }
 
 tbody tr:nth-child(even) {
-	background-color: rgb(241, 245, 248);
+	background-color: rgb(177, 206, 228);
     color: rgb(22, 41, 94);
 }
 
@@ -27,8 +74,12 @@ th, td {
 	padding: 7px 15px;	
 }
 
-body{ background-color: rgb(34, 34, 92);}
 
 tfoot {
     text-align: center;
 }
+
+/*----------- FOOTER --------------*/
+
+
+footer { text-align: center;}

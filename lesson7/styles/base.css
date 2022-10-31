@@ -1,6 +1,13 @@
 
-
 /*----------- HEADER --------------*/
+header, footer {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: gray;
+    color: white;
+    font-size: 15px;
+    padding: 0.5%;
+
+}
 
 /*----------- BODY --------------*/
 
@@ -62,7 +69,6 @@ table {
  
 /*----------- FOOTER --------------*/
 footer {
-    font-family: 'Cinzel';
     background-color: gray;
     color: white;
     text-align: center;

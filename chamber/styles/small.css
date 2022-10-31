@@ -157,9 +157,14 @@ table {
     width: 200px;
     padding: 1%;
     box-shadow: 0 0 10px rgba(11, 15, 228, 0.795);
-    
   }
- 
+
+figure {
+    color: rgb(3, 3, 199);
+    
+    
+    
+}
 .layout {  display: grid;
     grid-template-columns: 1fr;
     grid-template-rows:  1fr;
@@ -257,6 +262,7 @@ table {
     color: rgb(245, 247, 250);
     
 }
+
 /*----------- FOOTER --------------*/
 .Footer {
     text-align: center;

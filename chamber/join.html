@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=hed, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cinzel">
+    <title>Document</title>
+</head>
+<body>
+    <header class="Header"> 
+        <div class="logo">
+            <picture>
+                <source media="(max-width:150px)" srcset="images/logo_small75.webp">
+                <source media="(max-width:500px)" srcset="images/logo_small150.webp">
+                <source media="(max-width:800px)" srcset="images/logo_small300.webp">
+                <img src="images/logo_small.webp" alt="LogoIfoundd" >
+            </picture>
+        </div>
+            <nav class="btn">
+            <button id="hambBtn">&#9776;</button>
+            <ul id="navigation">
+                <li><a href="../index.html">Menu</a></li>
+                <li><a href="discovery.html">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li  class="active"><a href="#">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            </nav>
+        <div class="time" id="timeHeader"></div>
+        <div class="Face">
+            <a href="www.facebook.com"><img class="facelogo" src="images/fb_logo.webp" alt="Facebook logo"></a>
+            <a href="www.instagram.com"><img class="facelogo" src="images/insta.webp" alt="Instagran logo"></a>
+        </div>
+    </header>
+    <main class="Layout">
+        <div class="Body">
+        <form method="get" action="thankyou.html">
+            <fieldset> 
+                <legend> Applicant Information</legend>
+                <label class="top"> First Name* <input type="text" name="fname" required></label>
+                <label class="top"> Last Name* <input type="text" name="lname" required></label>
+                <label class="top"> Phone <input type="tel" name="phone" placeholder="(+351 ) 9999-9999"></label>
+                <label class="top"> Email* <input type="email" name="email" placeholder="someone@gmail.com"  required></label>
+                <label class="top"> Business Name* <input type="text" name="bname" required></label>
+            </fieldset>
+            <fieldset>
+                <legend> Membership Information</legend>
+                <div>Member Level</div>
+                <label class="sbs"><input type="radio" name="membership" value="vnp"> NP Membership</label> 
+                <label class="sbs"><input type="radio" name="membership" value="vbronze"> Bronze Membership</label> 
+                <label class="sbs"><input type="radio" name="membership" value="vsilver"> Silver Membership</label> 
+                <label class="sbs"><input type="radio" name="membership" value="vgold"> Gold Membership</label> 
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Membership Level</th>
+                            <th>Membership Benefits</th>                            
+                        </tr>
+                        <tr></tr>
+                        <tr></tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>NP</th>
+                                <td>
+                                    Enjoy to 5% discount on stay local<br>
+                                </td>
+                        </tr>
+                        <tr>
+                            <th>Bronze</th>
+                                <td>
+                                    Enjoy to 15% discount on stay local and restaurant
+                                </td>
+                        </tr>
+                         <tr>
+                            <th>Silver</th>
+                            <td>
+                                Enjoy to 25% discount on stay local and restaurant <br>
+                                Voucher 10% discount on attractions
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Gold</th>
+                            <td>
+                                Enjoy to 35% discount on stay local and restaurant <br>
+                                Voucher 20% discount on attractions
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend> Business Description</legend>
+                <div>Description</div>
+                <label class="top"><textarea name="description" id="desc" cols="40" rows="10"></textarea></label>
+                </label>
+              
+            </fieldset>    
+
+           <input type="submit" value="Join Us" class="submitBtn">
+        </form>
+        </fieldset>
+    </div>
+    </main>
+    <footer class="Footer">
+        <div class="logoFooter">
+            <picture>
+                <source media="(max-width:150px)" srcset="images/logo_small75.png">
+                <source media="(max-width:500px)" srcset="images/logo_small150.png">
+                <source media="(max-width:800px)" srcset="images/logo_small300.png">
+                <img src="images/logo_small.png" alt="LogoIfoundd" >
+            </picture>    
+        <br>
+        <p class="address"> IFOUNDD CRAMBER LTDA
+        <br> Rua das Lameiras,29 Creixomil
+        <br> Guimarães, Braga, Portugal
+        </p>
+        <p class="email"> ifoundd.com
+        <br> +351 9874-5988
+        <br> <a href="https://bityli.com/hDACivON"> Locacation Map</a>
+        </p>
+    </div>
+    <p> &copy;<span id="year"></span> | IFOUNDD Chamber | Marcelo Duarte | WDD230 Project </p>
+</footer> 
+<script src="scripts/main.js"></script>
+</body>
+</html>

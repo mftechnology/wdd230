@@ -61,4 +61,15 @@ nav button {
     box-shadow: 0 0 50px rgba(70, 138, 8, 0.795);
 }
 
+/*----------- FORM --------------*/
+form {
+    margin: 1rem 0 2rem 40%;
+    max-width:  30rem;
+}
+
+form label.top input, form label.top select {
+  
+    width: 100%;
+}
+
 }

@@ -10,10 +10,17 @@ x.onclick = toggleMenu;
 
 // set current year in footer ............................................................
 const currentDate = new Date();
+
+// set current year in header
 document.querySelector('#year').textContent = currentDate.getFullYear();
 
 // set current year in header
 document.querySelector('#timeHeader').textContent = currentDate.getFullYear();
+
+
+
+
+
 
 // last modified
 const dateHeader = document.querySelector('#timeHeader');

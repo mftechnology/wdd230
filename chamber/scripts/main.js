@@ -20,16 +20,18 @@ document.querySelector('#timeHeader').textContent = currentDate.getFullYear();
 
 
 
-
-
 // last modified
+
 const dateHeader = document.querySelector('#timeHeader');
 
 const fulldateUK = new Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(currentDate);
 
 dateHeader.innerHTML = `<em>${fulldateUK}</em>`;
 
-document.querySelector("#lastModified").textContent = `Last Modification: ${document.lastModified}`;
+document.querySelector("#lastModified").textContent = document.lastModified();
+
+
+
 
 //Banner ------------------------------------------------------------------------------
 let bannerDay = new Date().getDay();

@@ -1,0 +1,98 @@
+
+/*----------- HEADER --------------*/
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: gray;
+  color: white;
+  padding: 0.1%;
+  text-align: center;
+
+}
+
+/*----------- BODY --------------*/
+body{
+  padding: 0 10rem;
+}
+
+h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(1, 1, 1);
+  text-align: center;
+  font-size: 18px;
+}
+.cards {
+  margin: 0 auto;
+  background-color: rgb(221,221,221);
+  box-shadow: 0 0 30px rgb(40, 42, 42);
+  padding: 20px;
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  min-width: 300px;
+}
+
+section {
+  background-color: rgb(183, 186, 189);
+  border: 2px solid rgb(141, 141, 150);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  
+}
+section img {
+  width: 60%;
+  max-width: 280px;
+  border: 2px solid rgb(237, 237, 243);
+}
+
+span {
+  color: rgb(1, 1, 1);
+  text-align: center;
+  font-size: 12px;
+}
+
+/*----------- NAVIGATION --------------*/    
+nav {
+  background-color: black;
+  color: white;
+}
+
+nav ul {
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px;
+}
+
+nav ul li a {
+  color: white;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  background-color: #efefef;
+  color: black;
+}
+
+/*----------- MAIN --------------*/
+
+
+/*----------- FOOTER --------------*/
+footer {
+  background-color: gray;
+  color: white;
+  text-align: center;
+  padding: 1%;
+}
+

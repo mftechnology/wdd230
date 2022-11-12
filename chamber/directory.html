@@ -8,16 +8,58 @@
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
-    <title>Document</title>
+    <title>Directory</title>
 </head>
 <body>
-<header>
+<header class="Header"> 
+    <div class="logo">
+        <picture>
+            <source media="(max-width:150px)" srcset="images/logo_small75.webp">
+            <source media="(max-width:500px)" srcset="images/logo_small150.webp">
+            <source media="(max-width:800px)" srcset="images/logo_small300.webp">
+            <img src="images/logo_small.webp" alt="LogoIfoundd" >
+        </picture>
+    </div>
+    <nav class="btn">
+    <button id="hambBtn">&#9776;</button>
+    <ul id="navigation">
+        <li><a href="index.html">Menu</a></li>
+        <li><a href="discovery.html">Discover</a></li>
+        <li  class="active"><a href="#">Directory</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    </nav>
+    <div class="Face">
+        <a href="www.facebook.com"><img class="facelogo" src="images/fb_logo.webp" alt="Facebook logo"></a>
+        <a href="www.instagram.com"><img class="facelogo" src="images/insta.webp" alt="Instagran logo"></a>
+    </div>
 </header>
 <main>
     <div class="cards"></div>
 </main>
-<footer>
-    <script type="module" src="scripts/directory.js"></script>
+<footer class="Footer">
+    <div class="logoFooter">
+        <picture>
+            <source media="(max-width:150px)" srcset="images/logo_small75.png">
+            <source media="(max-width:500px)" srcset="images/logo_small150.png">
+            <source media="(max-width:800px)" srcset="images/logo_small300.png">
+            <img src="images/logo_small.png" alt="LogoIfoundd" >
+            </picture>    
+        <br>
+        <p class="address"> IFOUNDD CRAMBER LTDA
+        <br> Rua das Lameiras,29 Creixomil
+        <br> Guimarães, Braga, Portugal
+        </p>
+        <p class="email"> ifoundd.com
+        <br> +351 9874-5988
+        <br> <a href="https://bityli.com/hDACivON"> Locacation Map</a>
+        </p>
+    </div>
+    <p> &copy;<span id="year"></span> | IFOUNDD Chamber | Marcelo Duarte | WDD230 Project | Last Modification: <span id="lastModified"></span> </p>
+</footer> 
+<script type="module" src="scripts/directory.js"></script>
+<script src="scripts/main.js"></script>
 </footer>
 </body>
 </html>

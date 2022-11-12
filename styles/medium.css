@@ -9,8 +9,13 @@ header{
   
 footer{
     display: grid;
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
+}
+
+ul li, h2 {
+    text-align: left;
+    margin-left: 30%;;
 }
 
 .linklist ul li {

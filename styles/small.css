@@ -1,5 +1,23 @@
 /* HTML Selectors */
 
+/*----------- HEADER --------------*/
+
+header{
+    display: grid;
+    font-size: 20px;
+}
+header img {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 3px;
+    width: 150px;   
+}
+
+ul li, h2 {
+    text-align: left;
+    margin-left: 1%;;
+}
+/*----------- BODY --------------*/
 
 body {
     font-family: 'Inconsolata', cursive;
@@ -10,51 +28,14 @@ div {
     text-align: center;
 }
 
-header{
-    display: grid;
-    font-size: 20px;
-}
-
-
-ul li, h2 {
-    text-align: left;
-    margin-left: 40%;;
-
-}
-
-header img {
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 3px;
-    width: 150px;
-    
-    }
-
-footer{
-    font-size: 10px;
-    
-}
-
 header, footer {
     font-family: 'Cinzel';
     background-color: gray;
     color: white;
-    text-align: center;
-    
+    text-align: center;   
 }
 
-
-
-label {
-    display: inline-block;
-    min-width: 120px;
-    text-align: right;
-}
-
-main {
-    text-align: center;
-}
-
+/*----------- NAVIGATION --------------*/    
 nav {
     background-color: black;
     color: white;
@@ -88,9 +69,20 @@ nav ul li a:hover {
     color: black;
 }
 
+/*----------- MAIN --------------*/ 
+label {
+    display: inline-block;
+    min-width: 120px;
+    text-align: right;
+}
+
+main {
+    text-align: center;
+}
+
 section {
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
 }
 
 
@@ -107,5 +99,10 @@ section {
 .linklist ul li {
     display: flex;
     
+}
 
+/*----------- FOOTER --------------*/ 
+footer{
+    font-size: 8px;
+    
 }

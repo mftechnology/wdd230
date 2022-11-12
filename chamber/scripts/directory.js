@@ -1,8 +1,6 @@
-const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
-const cards = document.querySelector('.cards');
+import myJson from './json/data.json' assert {type: 'json'};
 
-/* Another way
-fetch(requestURL)
+fetch(myJson)
     .then(function(response) {
         if (!response.ok) {
             throw new Error('Network response was not OK');
@@ -13,21 +11,11 @@ fetch(requestURL)
     .then( function(jsonObject){
         console.table(jsonObject);
         const prophets = jsonObject['prophets'];
-        prophets.forEach(displayProphets);
+        prophets.forEach(displayBusiness);
     });
-*/
 
-/* THe better way*/
-async function getProphets(){
-    const response = await fetch(requestURL);
-    if (response.ok){
-        const data = await response.json();
-        data.prophets.forEach(prophet => {displayProphets(prophet)})
-       
-    }
-}
 
-function displayProphets(prophet) {
+function displayBusiness(company) {
     //create elements to add to the document
     let card = document.createElement('section');
     let h2 = document.createElement('h2');
@@ -36,13 +24,12 @@ function displayProphets(prophet) {
     let deathdate = document.createElement('span');
 
     // change the textContent property of the h2 element to contain the prophets full name
-    h2.textContent = prophet.name + ' ' + prophet.lastname;
-    birthdate.textContent = `Date of Birth: ${prophet.birthdate}`;
-    deathdate.textContent = `Date of Death: ${prophet.death} `;
+    h2.textContent = company.name;
+ 
 
     // build the image attributes by using the setAttribute method for the src, and loading attribute value (fill in the blank with the appropriate variable)
-    portait.setAttribute('src', prophet.imageurl);
-    portait.setAttribute('alt', `Portait of ${prophet.name} ${prophet.lastname}`);
+    portait.setAttribute('src', company.imageurl);
+    portait.setAttribute('alt', `Portait of ${company.name}`);
     portait.setAttribute('loading', 'lazy');
 
     // Add/append the section card with the h2 element
@@ -56,5 +43,5 @@ function displayProphets(prophet) {
    //cards.appendChild(card);
      document.querySelector('div.cards').appendChild(card);
 }
-getProphets();
+getCompanies();
  

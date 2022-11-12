@@ -1,0 +1,69 @@
+{
+"companies":[
+    {"name": "Hotel de Guimarães", 
+    "address": "Rua Eduardo Manuel de Almeida, 202", 
+    "phone": "+00 351 253 424 800", 
+    "website":"https://www.hotel-guimaraes.com/", 
+    "img":"https://www.hotel-guimaraes.com/wp-content/uploads/2157/1322/nggallery/headers//edificio6-2.jpg",
+    "memberLevel":"GOLD"},
+    
+    {"name": "B",
+    "address": "",
+    "phone": "", 
+    "website":"",
+    "img":"",
+    "memberLevel":""},
+
+    {"name": "B",
+    "address": "",
+    "phone": "", 
+    "website":"",
+    "img":"",
+    "memberLevel":""},
+
+    {"name": "B",
+    "address": "",
+    "phone": "", 
+    "website":"",
+    "img":"",
+    "memberLevel":""},
+
+    {"name": "B",
+    "address": "",
+    "phone": "", 
+    "website":"",
+    "img":"",
+    "memberLevel":""},
+
+    {"name": "B",
+    "address": "",
+    "phone": "", 
+    "website":"",
+    "img":"",
+    "memberLevel":""},
+
+    {"name": "B",
+    "address": "",
+    "phone": "", 
+    "website":"",
+    "img":"",
+    "memberLevel":""},
+
+    {"name": "B",
+    "address": "",
+    "phone": "", 
+    "website":"",
+    "img":"",
+    "memberLevel":""},
+
+    {"name": "B",
+    "address": "",
+    "phone": "", 
+    "website":"",
+    "img":"",
+    "memberLevel":""}
+  
+]
+
+}
+

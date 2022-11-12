@@ -335,23 +335,6 @@ form label.top input:required{
 form label.top input:required:valid{
     border-left: green solid 6px;
 }
-
-.cards {
-    margin: 0 auto;
-    background-color: rgb(221,221,221);
-    box-shadow: 0 0 30px rgb(40, 42, 42);
-    padding: 20px;
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    min-width: 300px;
-  }
-
-  directory section img {
-    width: 10%;
-    max-width: 280px;
-    border: 2px solid rgb(237, 237, 243);
-  }
   
 /*----------- FOOTER --------------*/
 .Footer {

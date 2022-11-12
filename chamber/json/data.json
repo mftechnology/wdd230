@@ -4,7 +4,7 @@
     "address": "Rua Eduardo Manuel de Almeida, 202", 
     "phone": "+00 351 253 424 800", 
     "website":"https://www.hotel-guimaraes.com/", 
-    "img":"https://www.hotel-guimaraes.com/wp-content/uploads/2157/1322/nggallery/headers//edificio6-2.jpg",
+    "img":"https://www.hotel-guimaraes.com/wp-content/themes/hotel-guimaraes-2021/images/logo.png",
     "memberLevel":"GOLD"},
     
     {"name": "Oásis Caffé",
@@ -15,7 +15,7 @@
     "memberLevel":"SILVER"},
 
     {"name": "A Cozinha by António Loureiro",
-    "address": "Largo do Serralho. 4",
+    "address": "Largo do Serralho, 4",
     "phone": "+351 253 534 022", 
     "website":"https://restauranteacozinha.pt/",
     "img":"https://restauranteacozinha.pt/images/logo/acozinha_logo_white.png",
@@ -29,7 +29,7 @@
     "memberLevel":"SILVER"},
 
     {"name": "Câmara Municipal de Guimarães",
-    "address": "Largo Cónego José Maria Gomes 4, 4804-534 Guimarães",
+    "address": "Largo Cónego José Maria Gomes, 4",
     "phone": "+351 253 421 200", 
     "website":"https://www.cm-guimaraes.pt/municipio/",
     "img":"https://www.cm-guimaraes.pt/cmguimaraes/layout/logocmg.svg",
@@ -43,21 +43,21 @@
     "memberLevel":"BRONZE"},
 
     {"name": "Espaço Guimarães",
-    "address": "Rua 25 De Abril 184-210, 4835-400 Silvares",
+    "address": "Rua 25 De Abril 184-210",
     "phone": "253539800", 
     "website":"https://espaco-guimaraes.klepierre.pt",
     "img":"https://www.klepierre.com/files/6dc26c9d/espaco_guimaraes_main_logo_fond_blc.svg",
     "memberLevel":"GOLD"},
 
     {"name": "Guimarães Shoppig",
-    "address": "Alameda Dr. Mariano Felgueiras, Guimarães",
+    "address": "Alameda Dr. Mariano Felgueiras",
     "phone": "+351 253 109 900", 
     "website":"https://www.guimaraeshopping.pt/",
     "img":"https://sonaesierracms-v2.cdnpservers.net/wp-content/uploads/sites/25/2017/04/guimaraeshopping.png",
     "memberLevel":"SILVER"},
 
     {"name": "Europcar",
-    "address": "R. Cónego Luciano Afonso dos Santos 37,Braga",
+    "address": "R. Cónego Luciano Afonso dos Santos 37",
     "phone": "253 262 177", 
     "website":"https://www.europcar.pt/pt-pt",
     "img":"https://www.europcar.pt/_nuxt/img/europcar-green.ebcf0ee.svg",

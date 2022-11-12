@@ -1,4 +1,7 @@
-//import myJson from './json/data.json' assert {type: 'json'};
+//import myJson from './data.json' assert {type: 'json'};
+
+//const requestURL = myJson;
+
 const requestURL = 'https://mftechnology.github.io/wdd230/chamber/json/data.json';
 
 async function getCompanies(){
@@ -15,11 +18,17 @@ function displayBusiness(company) {
     let card = document.createElement('section');
     let h3 = document.createElement('h3');
     let portait = document.createElement('img');
-    let name = document.createElement('span');
+    let address = document.createElement('span');
+    let phone = document.createElement('span');
+    let member = document.createElement('span');
+    let br = document.createElement('br');
     
 
     // change the textContent property of the h2 element to contain the prophets full name
     h3.textContent = company.name;
+    address.textContent = `Address: ${company.address} `;
+    phone.textContent = `Phone: ${company.phone} `;
+    member.textContent = `Member Level: ${company.memberLevel} `;
  
 
     // build the image attributes by using the setAttribute method for the src, and loading attribute value (fill in the blank with the appropriate variable)
@@ -29,14 +38,17 @@ function displayBusiness(company) {
 
     // Add/append the section card with the h2 element
     card.appendChild(h3);
-
     card.appendChild(portait);
-    card.appendChild(name);
+    card.appendChild(br);
+    card.appendChild(address);
+    card.appendChild(phone);
+    card.appendChild(member);
     
 
     // add/ append the existing html div with the cards class with the section card
    //cards.appendChild(card);
      document.querySelector('div.cards').appendChild(card);
 }
+
 getCompanies();
  

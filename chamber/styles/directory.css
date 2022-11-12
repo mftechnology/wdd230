@@ -1,0 +1,56 @@
+
+/*----------- HEADER --------------*/
+
+
+/*----------- BODY --------------*/
+
+
+
+/*----------- NAVIGATION --------------*/    
+
+
+
+/*----------- MAIN --------------*/
+
+h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(1, 1, 1);
+  text-align: center;
+  font-size: 18px;
+}
+.cards {
+  margin: 0 auto;
+  background-color: rgb(232, 241, 216);
+  box-shadow: 0 0 30px rgb(40, 42, 42);
+  padding: 20px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  min-width: 300px;
+}
+
+section {
+  background-color: rgb(179, 197, 215);
+  border: 2px solid rgb(25, 136, 95);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  
+}
+section img {
+  width: 50%;
+  max-width: 300px;
+  border: 2px solid rgb(237, 237, 243);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+span {
+  color: rgb(1, 1, 1);
+  text-align: center;
+  font-size: 0.7rem;
+  text-align: left;
+  
+}
+/*----------- FOOTER --------------*/

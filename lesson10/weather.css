@@ -1,0 +1,76 @@
+
+/*----------- HEADER --------------*/
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: gray;
+    color: white;
+    padding: 0.1%;
+    text-align: center;
+  }
+
+/*----------- NAVIGATION --------------*/    
+nav {
+    background-color: black;
+    color: white;
+  }
+  
+  nav ul {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+  }
+  
+  nav ul li a {
+    color: white;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+  }
+  nav ul li a:hover {
+    background-color: #efefef;
+    color: black;
+  }
+
+/*----------- BODY --------------*/
+
+h2 {
+    color: rgb(43, 88, 170);
+    text-align: left;
+}
+
+p , figcaption{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+figure img{
+    float: left;
+}
+figcaption {
+    text-align: left;
+    
+}
+span {
+    margin: 5% 0 10% 1%;
+}
+
+
+/*----------- FOOTER --------------*/
+
+footer {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 1%;
+  }
+  
+  

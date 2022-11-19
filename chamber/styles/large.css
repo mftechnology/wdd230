@@ -58,6 +58,12 @@ nav ul li a {
 
 
 /*----------- MAIN --------------*/
+#temperature{
+    margin: 0 0 0 5%;
+}
+#weathericon{
+    margin: 0 0 0 30%;
+}
 
 h2 {
 	font-size: x-large;   

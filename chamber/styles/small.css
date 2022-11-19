@@ -129,13 +129,14 @@ table {
     background-color: rgb(172, 196, 240);
     padding: 8px;
   }
-#weathertxt{
+#temperature{
     font-size: 40px;
-    margin-left: 1rem;
+    margin: 0 0 0 5%;
 }
-.weatherimg{
+#weathericon{
     float: left;
-    margin: 0 0 0 35%;
+    margin: 0 0 0 15%;
+    background-color: #43a051;
 }
 
 .windchill{

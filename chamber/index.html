@@ -64,10 +64,14 @@
             <h3>Weather</h3>
             <h4>Guimarães</h4>    
             <section >
-                <span><img class="weatherimg" src="images/rain_s_cloudy.png" alt="Weather Guimarães"></span>
-                <span id="weathertxt"></span>               
+                <span>
+                <figure>
+                    <img src="" alt="" id="weathericon">
+                </figure></span>
+                <span id="temperature"></span> 
+                </p>            
             </section>           
-            <h4>Partly Cloudy</h4>
+            <h4><span id="currently"></span></h4>
             <hr>
             <section class="windchill">
                 <span class="wind">Wind Speed:</span><span id="speed"></span><br>
@@ -138,6 +142,7 @@
     </footer>    
     <script src="scripts/main.js"></script>
     <script src="scripts/data.js"></script>
+    <script src="scripts/weather.js"></script>
     <script src="scripts/windchill.js"></script>
 </body>
 </html>

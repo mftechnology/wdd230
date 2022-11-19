@@ -7,8 +7,8 @@
 //const temp = document.querySelector('temp');
 //const wind = document.querySelector('wind');
 
-const temp = 40;
-const wind = 3.5;
+const temp = document.querySelector('#temperature')
+const wind = document.querySelector('#speed');
 
 if (temp<= 50 && wind > 3.0) {
     const factor = Math.round(
@@ -19,5 +19,4 @@ if (temp<= 50 && wind > 3.0) {
     document.querySelector('#chill').textContent = "N/A";
 }
 
-document.querySelector('#weathertxt').textContent = temp +"º F";
-document.querySelector('#speed').textContent = wind +" mph";
+

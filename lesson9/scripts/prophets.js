@@ -33,11 +33,13 @@ function displayProphets(prophet) {
     let h2 = document.createElement('h2');
     let portait = document.createElement('img');
     let birthdate = document.createElement('span');
+    let birthplace = document.createElement('span');
     let deathdate = document.createElement('span');
 
     // change the textContent property of the h2 element to contain the prophets full name
     h2.textContent = prophet.name + ' ' + prophet.lastname;
-    birthdate.textContent = `Date of Birth: ${prophet.birthdate}`;
+    birthdate.textContent = `Date of Place: ${prophet.birthplace}`;
+    birthplace.textContent = `Date of Birth: ${prophet.birthdate}`;
     deathdate.textContent = `Date of Death: ${prophet.death} `;
 
     // build the image attributes by using the setAttribute method for the src, and loading attribute value (fill in the blank with the appropriate variable)
@@ -50,6 +52,7 @@ function displayProphets(prophet) {
 
     card.appendChild(portait);
     card.appendChild(birthdate);
+    card.appendChild(birthplace);
     card.appendChild(deathdate);
 
     // add/ append the existing html div with the cards class with the section card

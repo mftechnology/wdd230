@@ -38,7 +38,7 @@ function displayProphets(prophet) {
 
     // change the textContent property of the h2 element to contain the prophets full name
     h2.textContent = prophet.name + ' ' + prophet.lastname;
-    birthdate.textContent = `Date of Place: ${prophet.birthplace}`;
+    birthdate.textContent = `Place of Birth: ${prophet.birthplace}`;
     birthplace.textContent = `Date of Birth: ${prophet.birthdate}`;
     deathdate.textContent = `Date of Death: ${prophet.death} `;
 

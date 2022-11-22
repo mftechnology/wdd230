@@ -20,6 +20,10 @@ nav button {
 .btn{ margin-left: 1rem;}
 
 /*----------- MAIN --------------*/
+.bodytxt{
+    width: 30%;
+    margin-left: 7.2rem; 
+}
 .layout {  
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
@@ -38,11 +42,7 @@ nav button {
 }
  .Join { grid-area: Join;}
  .Sportlight3 {display: none;}
- .bodytxt{
-    position: absolute;
-    margin-left: 10rem;
-    margin-right: auto       
-}
+
 .joinchamber{
     padding: 2%;
     bottom: 30px;

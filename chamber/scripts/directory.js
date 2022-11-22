@@ -22,6 +22,7 @@ function displayBusiness(company) {
     let phone = document.createElement('span');
     let member = document.createElement('span');
     let br = document.createElement('br');
+    let url = document.createElement('a');
     
 
     // change the textContent property of the h2 element to contain the prophets full name
@@ -29,12 +30,14 @@ function displayBusiness(company) {
     address.textContent = `Address: ${company.address} `;
     phone.textContent = `Phone: ${company.phone} `;
     member.textContent = `Member Level: ${company.memberLevel} `;
+    url.textContent = company.website;
  
 
     // build the image attributes by using the setAttribute method for the src, and loading attribute value (fill in the blank with the appropriate variable)
     portait.setAttribute('src', company.img);
     portait.setAttribute('alt', `Portait of ${company.name}`);
     portait.setAttribute('loading', 'lazy');
+    url.setAttribute('href', company.website)
 
     // Add/append the section card with the h2 element
     card.appendChild(h3);
@@ -43,6 +46,7 @@ function displayBusiness(company) {
     card.appendChild(address);
     card.appendChild(phone);
     card.appendChild(member);
+    card.appendChild(url);
     
 
     // add/ append the existing html div with the cards class with the section card

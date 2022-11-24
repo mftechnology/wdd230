@@ -9,20 +9,20 @@ nav button {
 }
 
 /*----------- HEADER --------------*/
-.Header{ display: grid;
-    grid-template-columns: 1fr 1fr auto;
-    grid-template-rows: 1fr;
-    grid-template-areas:
-    "btn logo Face "
-    "time time time"
-  ;
-}
+
 .btn{ margin-left: 1rem;}
 
 /*----------- MAIN --------------*/
 .bodytxt{
-    width: 30%;
-    margin-left: 7.2rem; 
+   margin-left: 15rem;
+   margin-top: .5rem;
+   padding: 2%;
+   font-size: 1rem;
+}
+.joinchamber{
+    margin-right: 15rem;
+    font-size: 1rem;
+    padding: 2%;
 }
 .layout {  
     grid-template-columns: 1fr 1fr;
@@ -37,27 +37,20 @@ nav button {
     "Footer Footer";
 
  }
- .Spotlight,.Event, .Body,.Release,.Weather,.Join{
+
+.Spotlight,.Event, .Body,.Release,.Weather,.Join{
     min-height: 100px;
 }
- .Join { grid-area: Join;}
- .Sportlight3 {display: none;}
-
-.joinchamber{
-    padding: 2%;
-    bottom: 30px;
-    right: 150px;
-}
+.Join { grid-area: Join;}
+.Sportlight3 {display: none;}
 .containerDiscovery{
     max-width: 500px;
 }
-
 .containerDiscovery img {
     height: 500px;
     width: 500px;    
-  }
-
-  .containerDiscovery img:hover{
+}
+.containerDiscovery img:hover{
     box-shadow: 0 0 50px rgba(70, 138, 8, 0.795);
 }
 
@@ -68,7 +61,6 @@ form {
 }
 
 form label.top input, form label.top select {
-  
     width: 100%;
 }
 

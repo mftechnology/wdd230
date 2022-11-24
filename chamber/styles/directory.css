@@ -46,8 +46,11 @@ section img {
   margin-right: auto;
 }
 
-a {
+.cards a {
   font-size: 0.7rem;
+  background-color: rgb(179, 197, 215);
+  color: blue;
+  margin-top: .1rem;
 }
 
 nav ul li a {

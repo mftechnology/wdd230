@@ -59,9 +59,12 @@ nav ul li a {
 
 /*----------- MAIN --------------*/
 .bodytxt{
-    width: 50%; 
-    margin-left: 0.5rem;
-}
+    margin-left: 1rem;
+    margin-top: 1rem;
+ }
+ .joinchamber{
+     margin-right: .1rem;
+ }
 #temperature{
     margin: 0 0 0 5%;
 }
@@ -108,7 +111,7 @@ form label.sbs {
 /*----------- FOOTER --------------*/
 .logoFooter{
     display: flex;
-    margin-left: 30rem;
+    margin-left: 15rem;
     padding: 1%;
 }
 

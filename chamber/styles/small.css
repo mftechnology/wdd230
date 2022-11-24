@@ -173,6 +173,45 @@ table {
 figure {
     color: rgb(3, 3, 199);   
 }
+.LayoutContact{  
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "Email"
+    "Address"
+    ;
+  }
+  
+.Email {grid-area: Email;display: grid;}
+.Address {grid-area: Address; display: grid;}
+
+.Email, .Address {
+    background-color: rgb(232, 241, 216);
+    min-width: 200px;
+    
+}
+.Email form {
+    margin: 3rem auto auto;
+}
+.Address section {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+.Address section h3 {
+    text-align: left;
+    margin-left: 2rem;
+}
+
+.Address section p{
+    text-align: left;
+    margin-left: 1.5rem;
+}
+
+.Address section img {
+    margin-top: 2rem;
+    box-shadow: 0 0 10px rgba(11, 15, 228, 0.795);
+}
 
 .layout {  display: grid;
     grid-template-columns: 1fr;

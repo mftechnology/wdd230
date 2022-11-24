@@ -84,6 +84,8 @@ nav ul li a {
     width: 800px;    
   }
 
+  
+
 .layout {  
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

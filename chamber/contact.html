@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <title>Contact</title>
+</head>
+<body>
+<header class="Header"> 
+        <div class="logo">
+            <picture>
+                <source media="(max-width:150px)" srcset="images/logo_small75.webp">
+                <source media="(max-width:500px)" srcset="images/logo_small150.webp">
+                <source media="(max-width:800px)" srcset="images/logo_small300.webp">
+                <img src="images/logo_small.webp" alt="LogoIfoundd" >
+            </picture>
+        </div>
+        <nav class="btn">
+        <button id="hambBtn">&#9776;</button>
+        <ul id="navigation">
+            <li><a href="index.html">Menu</a></li>
+            <li><a href="discovery.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li class="active"><a href="#">Contact</a></li>
+        </ul>
+        </nav>
+    <div class="Face">
+        <a href="https://www.facebook.com/"><img class="facelogo" src="images/fb_logo.webp" alt="Facebook logo"></a>
+            <a href="https://www.instagram.com/"><img class="facelogo" src="images/insta.webp" alt="Instagran logo"></a>
+    </div>
+</header>
+<main class="LayoutContact">
+    <div class="Email">
+        <form method="get" action="thankyou.html">
+            <legend> Contact</legend>
+            <label class="top"> Name* <input type="text" name="fname" required></label>
+            <label class="top"> Email* <input type="email" name="email" placeholder="someone@gmail.com"  required></label>
+            <div>Description</div>
+            <label class="top"><textarea name="description" id="desc" cols="40" rows="10"></textarea></label>
+            <input type="submit" value="Contact Us" class="submitBtn">
+        </form>
+    </div>
+    <div class="Address">
+        <section>
+            <h3> Address </h3>
+            <p> Rua das Lameiras, 29
+            Creixomil, Guimarães, Braga, Portugal 
+            <img src="images/map.JPG" alt="Guimarães Map"> 
+            </p>
+            <h3> Email </h3>
+            <p> contact@iffound.com.br</p>
+        </section>
+    </div>
+    
+</main>
+<footer class="Footer">
+    <div class="logoFooter">
+        <picture>
+            <source media="(max-width:150px)" srcset="images/logo_small75.png">
+            <source media="(max-width:500px)" srcset="images/logo_small150.png">
+            <source media="(max-width:800px)" srcset="images/logo_small300.png">
+            <img src="images/logo_small.png" alt="LogoIfoundd" >
+        </picture>    
+    <br>
+    <p class="address"> IFOUNDD CRAMBER LTDA
+    <br> Rua das Lameiras,29 Creixomil
+    <br> Guimarães, Braga, Portugal
+    </p>
+    <p class="email"> ifoundd.com
+    <br> +351 9874-5988
+    <br> <a href="https://bityli.com/hDACivON"> Locacation Map</a>
+    </p>
+</div>
+<p> &copy;<span id="year"></span> | IFOUNDD Chamber | Marcelo Duarte | WDD230 Project | Last Modification: <span id="lastModified"></span> </p>
+</footer> 
+<script src="scripts/main.js"></script>
+</body>
+</html>

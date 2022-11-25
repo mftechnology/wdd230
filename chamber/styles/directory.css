@@ -50,6 +50,8 @@ section img {
   font-size: 0.7rem;
   background-color: rgb(179, 197, 215);
   color: blue;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: .1rem;
 }
 

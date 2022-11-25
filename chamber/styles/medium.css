@@ -33,8 +33,7 @@ nav button {
     "Email Address"
     ;
   }
-
-
+  
 .layout {  
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
@@ -46,7 +45,12 @@ nav button {
     "Join Join"
     "Event Weather"
     "Footer Footer";
+ }
 
+
+ .Spotlight1 section img , .Spotlight2 section img {
+    max-width: 25%;
+  
  }
 
 .Spotlight,.Event, .Body,.Release,.Weather,.Join{

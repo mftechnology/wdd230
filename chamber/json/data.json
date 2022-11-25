@@ -5,6 +5,7 @@
     "phone": "+00 351 253 424 800", 
     "website":"https://www.hotel-guimaraes.com/", 
     "img":"https://www.hotel-guimaraes.com/wp-content/themes/hotel-guimaraes-2021/images/logo.png",
+    "Category":"Stay",
     "memberLevel":"GOLD"},
     
     {"name": "Oásis Caffé",
@@ -12,6 +13,7 @@
     "phone": "+351916474156", 
     "website":"https://oasiscaffe.wixsite.com/oasiscaffe",
     "img":"https://static.wixstatic.com/media/8048a7_f3433a6c8baf45819db53756be5251c0~mv2.png/v1/fill/w_123,h_56,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/8048a7_f3433a6c8baf45819db53756be5251c0~mv2.png",
+    "Category":"Food",
     "memberLevel":"SILVER"},
 
     {"name": "A Cozinha by António Loureiro",
@@ -19,6 +21,7 @@
     "phone": "+351 253 534 022", 
     "website":"https://restauranteacozinha.pt/",
     "img":"https://restauranteacozinha.pt/images/logo/acozinha_logo_white.png",
+    "Category":"Food",
     "memberLevel":"GOLD"},
 
     {"name": "Hotel Toural",
@@ -26,6 +29,7 @@
     "phone": "+351 253 517 184", 
     "website":"https://www.hoteltoural.com/pt/",
     "img":"https://www.hoteltoural.com/wp-content/themes/hotel-toural-2021-09-02/images/logo.png",
+    "Category":"Stay",
     "memberLevel":"SILVER"},
 
     {"name": "Câmara Municipal de Guimarães",
@@ -33,6 +37,7 @@
     "phone": "+351 253 421 200", 
     "website":"https://www.cm-guimaraes.pt/municipio/",
     "img":"https://www.cm-guimaraes.pt/cmguimaraes/layout/logocmg.svg",
+    "Category":"Place",
     "memberLevel":"NP"},
 
     {"name": "Paço dos Duques",
@@ -40,6 +45,7 @@
     "phone": "+351 253 412 273", 
     "website":"https://pacodosduques.gov.pt/monumentos/castelo-de-guimaraes/",
     "img":"https://pacodosduques.gov.pt/wp-content/uploads/2019/10/PD-Logo-1-e1572541407891.png",
+    "Category":"Place",
     "memberLevel":"BRONZE"},
 
     {"name": "Espaço Guimarães",
@@ -47,6 +53,7 @@
     "phone": "253539800", 
     "website":"https://espaco-guimaraes.klepierre.pt",
     "img":"https://www.klepierre.com/files/6dc26c9d/espaco_guimaraes_main_logo_fond_blc.svg",
+    "Category":"Place",
     "memberLevel":"GOLD"},
 
     {"name": "Guimarães Shoppig",
@@ -54,6 +61,7 @@
     "phone": "+351 253 109 900", 
     "website":"https://www.guimaraeshopping.pt/",
     "img":"https://sonaesierracms-v2.cdnpservers.net/wp-content/uploads/sites/25/2017/04/guimaraeshopping.png",
+    "Category":"Place",
     "memberLevel":"SILVER"},
 
     {"name": "Europcar",
@@ -61,6 +69,7 @@
     "phone": "253 262 177", 
     "website":"https://www.europcar.pt/pt-pt",
     "img":"https://www.europcar.pt/_nuxt/img/europcar-green.ebcf0ee.svg",
+    "Category":"Rent",
     "memberLevel":"GOLD"}
   
 ]

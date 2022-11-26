@@ -44,18 +44,15 @@ function displayBusiness(company) {
     portait.setAttribute('loading', 'lazy');
     portait.setAttribute('width', "50%")
   
- 
     // Add/append the section card with the h2 element
     card.appendChild(h3);
     card.appendChild(portait);
     card.appendChild(hr);
     card.appendChild(phone);
     card.appendChild(memberLevel);
-  
-    
-    
+      
     // add/ append the existing html div with the cards class with the section card
-   //cards.appendChild(card);
+
     if (company.Category === "Stay") {
         h3.textContent = "Where to Stay";
         document.querySelector('div.Spotlight1').appendChild(card);    

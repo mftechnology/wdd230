@@ -111,7 +111,19 @@ nav ul li a {
 form label.sbs {
     padding: .4rem;
 }
+.Email form{
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.Email h3{
+    margin: 3rem 15rem auto;
+
+}
+.address{
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /*----------- FOOTER --------------*/
 .logoFooter{
@@ -120,9 +132,5 @@ form label.sbs {
     padding: 1%;
 }
 
-.address, .email{
-    margin-left: auto;
-    margin-right: auto;
-    }
 
 }

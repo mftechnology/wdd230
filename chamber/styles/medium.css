@@ -69,7 +69,12 @@ nav button {
     box-shadow: 0 0 50px rgba(70, 138, 8, 0.795);
 }
 
+
 /*----------- FORM --------------*/
+.Email h3{
+    margin: 3rem 3rem auto;
+}
+
 form {
     margin: 1rem 0 2rem 40%;
     max-width:  30rem;

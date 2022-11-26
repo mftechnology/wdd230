@@ -192,7 +192,12 @@ figure {
     
 }
 .Email form {
-    margin: 3rem auto auto;
+    margin: .1rem 2rem auto;
+}
+
+.Email h3 {
+    text-align: left;
+    margin-left: 2rem;
 }
 .Address section {
     margin-top: 1rem;

@@ -1,0 +1,83 @@
+
+@media only screen and (min-width: 85em) {
+    /* Large Screen 800px */
+
+
+/*----------- HEADER --------------*/
+.gridHeader{ display: grid;
+    grid-template-columns: 0.1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "logo company navbar"
+
+  ;
+}
+
+.logo  {grid-template-areas: logo ;display: grid;} 
+
+
+/*----------- BODY --------------*/
+
+    
+
+/*----------- NAVIGATION --------------*/    
+nav {
+    display: flex;
+
+}
+
+nav button { display: none}
+
+nav ul { 
+    display:flex;
+    justify-content: center;
+}
+
+nav ul li a {
+    border: none;
+}
+
+.navigation {
+    display: flex;
+}
+.navigation li {
+    display: block; /* change state in small view */
+    flex: 1 1 auto;
+}
+.navigation a {
+    text-align: center;
+}
+.navigation li:first-child {
+    display: none;
+}
+
+
+/*----------- MAIN --------------*/
+  
+.layouthome {  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "banner banner banner"
+    "containerA containerB Spotlight1"
+    "containerA containerB Spotlight2"
+    "containerC containerC Spotlight3"
+ ;
+  }
+  
+  .banner {grid-area: banner; display: grid;}
+  .containerC {grid-area: containerC; display: grid;}
+  .Spotlight1 {grid-area: Spotlight1; display: grid;}
+  .Spotlight3 {grid-area: Spotlight3; display: grid;}
+
+.containerA p {
+    margin: 2rem 1rem 0;
+}
+
+
+
+/*----------- FORM --------------*/
+
+
+/*----------- FOOTER --------------*/
+}

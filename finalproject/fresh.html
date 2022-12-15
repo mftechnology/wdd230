@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <title>Fresh</title>
+</head>
+<body>
+    <header class="gridHeader">
+        <div class="logo">
+            <picture>
+                <source media="(max-width:150px)" srcset="images/logo_small75.webp">
+                <source media="(max-width:500px)" srcset="images/logo_small150.webp">
+                <source media="(max-width:800px)" srcset="images/logo_small300.webp">
+                <img src="images/logo.jpg" alt="Bountiful Foods" >
+            </picture>
+        </div>
+        <div class="company"> <h1>Bountiful Foods </h1></div>  
+        <div class="navbar">
+        <nav> 
+        <span><button id="hambBtn">&#9776;</button></span>
+            <ul id="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="">Fresh</a></li>
+                <li><a href="about.html">About us</a></li>
+            </ul>
+        <span class="face">
+        <a href="https://www.facebook.com/" target="blank" rel="noopener" ><img src="images/fb_logo.webp" alt="Facebook logo"></a>
+        <a href="https://www.instagram.com/"><img src="images/insta.webp" alt="Instagran logo"></a>
+        </span>
+        </nav>
+        </div>
+        
+    </header>
+<main class="layoutfresh">
+<div class="containerD" >
+    <h2> Make your drink</h2>
+    <form method="get" action="fresh.html" id="form"> 
+        <label class="top"> First Name* <input type="text" name="fname" required></label>
+        <label class="top"> Phone <input type="tel" name="phone" placeholder="(+351 ) 9999-9999"></label>
+        <label class="top"> Email* <input type="email" name="email" placeholder="someone@gmail.com"  required></label>
+        <label class="juice" for="juice"> Choice 3 fruits to your Mix Juice: <br>
+            <br>Option 1: 
+            <select class="option1" id="juice1"></select><br>
+            <br>Option 2:
+            <select class="option2" id="juice2"></select><br>
+            <br>Option 3:
+            <select class="option3" id="juice3"></select> 
+        </label>
+        <label for="">Description: <textarea name="description" id="desc" cols="30" rows="5"></textarea></label>
+       <input type="submit" value="Join Us" class="submitBtn">
+    </form>
+    <p id="log"></p>
+    <p id="log1"></p>
+</div>
+<div class="containerE">
+    <picture>
+        <source media="(max-width:1400px)" srcset="images/juice.jpg">
+        <img src="images/juice.jpg" alt="juice" >
+    </picture>
+</div>
+
+</main>
+</body>
+<footer>
+    <p class="address"> Bountiful Foods
+        <br> 150 Cannon Rd, Carlsbad, CA 92008, Estados Unidos
+        </p>
+        <p class="email"> Bountifulfoods.com
+        <br> +1 7606039608
+        <br> <a href="https://bityli.com/hDACivON"> Locacation Map</a>
+        </p>
+        </div>
+        <p> &copy;<span id="year"></span> | Bountiful Foods | Marcelo Duarte | WDD230 Project | Last Modification: <span id="lastModified"></span> </p>
+</footer>
+<script src="scripts/main.js"></script>
+<script src="scripts/fruitJson.js"></script>
+</html>

@@ -267,8 +267,6 @@ figure {
 .Spotlight3{
     display: none;
 }
-
-
   
 section a{
     border-radius: 1em 1em;
@@ -281,7 +279,6 @@ section a{
     display: block;
     margin: 3rem auto auto;
 }
-
 
 .Body{
     position: relative;
